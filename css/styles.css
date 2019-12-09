@@ -15,4 +15,54 @@
 body {
     font-family: var(--font-josefin-sans);
     font-size: 16px;
+    height: 1vh;
+    background-image: url('../images/bg-pattern-desktop.svg');
+}
+
+header {
+    height: 100px;
+    background-color: #fff;
+    background-image: url('../images/logo.svg');
+    background-repeat: no-repeat;
+    background-position: 10% 50%;
+}
+
+.image-container {
+    height: 400px;
+    max-width: 100%;
+    background-image: url('../images/hero-desktop.jpg');
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin: 3px;
+    text-transform: uppercase;
+}
+
+h1 span {
+    display: inline;
+    color: var(--color-desaturated-red);
+    font-weight: var(--font-weight-light);
+}
+
+.email-input input {
+    height: 20px;
+    width: 75%;
+}
+
+.email-input button {
+    height: 50px;
+    width: 90px;
+    border-radius: 25%;
+    background: linear-gradient(135deg,  hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    
+}
+
+.email-input button .arrow {
+    background-image: url('../images/icon-arrow.svg');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    
 }
